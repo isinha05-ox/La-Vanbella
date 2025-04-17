@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "steak-strip",
+    "slug": "steak-strip",
+    "version": "1.0.0",
+    "orientation": "portrait",
+
+    "icon": "./src/assets/images/icon.png",
+
+    "icon": "./src/assets/images/img4.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+
+      "image": "./src/assets/images/splash-icon.png",
+
+      "image": "./src/assets/images/img4.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F2F2F2"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/images/adaptive-icon.png",
+
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./src/assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
