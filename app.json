@@ -7,14 +7,12 @@
 
     "icon": "./src/assets/images/icon.png",
 
-    "icon": "./src/assets/images/img4.png",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
 
       "image": "./src/assets/images/splash-icon.png",
 
-      "image": "./src/assets/images/img4.png",
       "resizeMode": "contain",
       "backgroundColor": "#F2F2F2"
     },
